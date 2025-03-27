@@ -9,7 +9,7 @@ class MoveAlfredScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: CustomAppBar(), // Using the updated CustomAppBar
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           const SizedBox(height: 10), // Moved title up
@@ -23,17 +23,17 @@ class MoveAlfredScreen extends StatelessWidget {
               color: Colors.black,
             ),
           ),
-          const SizedBox(height: 5),
+          const SizedBox(height: 15),
 
           // Subtitle
           const Text(
             "Place Alfred at the Base point to start marking",
             style: TextStyle(
               fontSize: 16,
-              color: Colors.black54,
+              color: Colors.black,
             ),
           ),
-          const SizedBox(height: 30),
+          const SizedBox(height: 40),
 
           // Larger Image
           const Center(
